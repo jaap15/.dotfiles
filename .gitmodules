@@ -1,0 +1,6 @@
+[submodule "vim/plugins/robotframework-vim"]
+	path = vim/plugins/robotframework-vim
+	url = https://github.com/mfukar/robotframework-vim.git
+[submodule "tmux/plugins/tmux-resurrect"]
+	path = tmux/plugins/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect.git

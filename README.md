@@ -8,8 +8,13 @@ Create symbolic link so that ~/.vim/ points to the ~/dotfiles/vim/plugins/ file:
 
 Get all the plugins from their git repos:
 `cd ~/dotfiles`
-`git submodule init`
-`git submodule update`
+`git submodule update --init --recursive`
+
+Load YouCompleteMe
+`sudo apt-get install build-essential cmake`
+`sudo apt-get install python-dev python3-dev`
+`cd ~/.vim/bundle/YouCompleteMe`
+`./install.py --clang-completer`
 
 # Load vim config
 

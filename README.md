@@ -6,6 +6,11 @@ Create symbolic link so that ~/.vimrc points to the ~/dotfiles/.vimrc file:
 Create symbolic link so that ~/.vim/ points to the ~/dotfiles/vim/plugins/ file: (Will not create link if ~/.vim already exists, remove ~/.vim)
 `ln -s ~/.dotfiles/vim/plugins ~/.vim`
 
+Get all the plugins from their git repos:
+`cd ~/dotfiles`
+`git submodule init`
+`git submodule update`
+
 # Load vim config
 
 echo "so ~/.dotfiles/vim/vimrc.vim" > ~/.vimrc

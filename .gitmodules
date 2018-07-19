@@ -7,3 +7,6 @@
 [submodule "vim/plugins/bundle/robotframework-vim"]
 	path = vim/plugins/bundle/robotframework-vim
 	url = https://github.com/mfukar/robotframework-vim.git
+[submodule "vim/plugins/bundle/YouCompleteMe"]
+	path = vim/plugins/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git

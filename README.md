@@ -23,3 +23,6 @@ sudo apt-get install zsh`
 # Install tmux
 `sudo apt-get install tmux`
 
+# Credits
+https://github.com/Parth/dotfiles
+https://github.com/MitchellMcKenna/dotfiles

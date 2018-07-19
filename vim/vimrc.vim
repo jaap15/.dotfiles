@@ -1,3 +1,9 @@
+" Include Pathogen {
+    source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+    call pathogen#infect()
+    call pathogen#helptags()
+" }
+
 " General Vim Settings "
 	syntax on
 	set number

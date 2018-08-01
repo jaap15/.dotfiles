@@ -1,4 +1,14 @@
 # Setup
+Clone repo in ~/
+Do the following:
+- Install tmux
+- Install zsh
+- Load vim config
+- Load tmux config
+- Get all the plugins from their git repos:
+- Load vim plugins
+
+# Load vim config
 
 Create symbolic link so that ~/.vimrc points to the ~/dotfiles/.vimrc file:
 `ln -s ~/.dotfiles/vim/vimrc.vim ~/.vimrc`
@@ -6,32 +16,25 @@ Create symbolic link so that ~/.vimrc points to the ~/dotfiles/.vimrc file:
 Create symbolic link so that ~/.vim/ points to the ~/dotfiles/vim/plugins/ file: (Will not create link if ~/.vim already exists, remove ~/.vim)
 `ln -s ~/.dotfiles/vim/plugins ~/.vim`
 
-Get all the plugins from their git repos:
-`cd ~/dotfiles`
+# Load tmux config
+
+echo "source-file ~/.dotfiles/tmux/tmux.conf" > ~/.tmux.conf
+
+# Get all the plugins from their git repos:
+
+`cd ~/.dotfiles`
 `git submodule update --init --recursive`
 
+# Load vim plugins
 Load YouCompleteMe
 `sudo apt-get install build-essential cmake`
 `sudo apt-get install python-dev python3-dev`
 `cd ~/.vim/bundle/YouCompleteMe`
 `./install.py --clang-completer`
 
-# Load vim config
-
-echo "so ~/.dotfiles/vim/vimrc.vim" > ~/.vimrc
-
-
-# Load tmux config
-
-echo "source-file ~/.dotfiles/tmux/tmux.conf" > ~/.tmux.conf
-
 # Load zsh config
 
 echo "source ~/.dotfiles/zsh/zshrc_manager.sh" > ~/.zshrc
-
-# Update submodule
-git submodule update --init --recursive
-
 
 # Install zsh
 `sudo apt-get update

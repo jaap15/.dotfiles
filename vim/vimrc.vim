@@ -38,7 +38,9 @@
     autocmd BufWritePre     * :call TrimWhiteSpace()
 " }
 
-
+" Pretty Print JSON {
+    imap jj <esc>:%!python -m json.tool<CR>
+" }
 
 " General Vim Settings "
 	syntax on

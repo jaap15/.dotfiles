@@ -1,3 +1,5 @@
 vim/plugins/.netrwhist
 *.swp
 
+vim/plugins/bundle/vim-markdown/
+vim/plugins/bundle/vim-yaml-formatter/

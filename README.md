@@ -32,6 +32,9 @@ Load YouCompleteMe
 `cd ~/.vim/bundle/YouCompleteMe`
 `./install.py --clang-completer`
 
+# Install Vundle Plugins
+In vim do `:PluginInstall`
+
 # Load zsh config
 
 echo "source ~/.dotfiles/zsh/zshrc_manager.sh" > ~/.zshrc
@@ -39,7 +42,7 @@ echo "source ~/.dotfiles/zsh/zshrc_manager.sh" > ~/.zshrc
 # Install zsh
 `sudo apt-get update
 sudo apt-get upgrade
-sudo apt-get install zsh` 
+sudo apt-get install zsh`
 
 # Install tmux
 `sudo apt-get install tmux`
@@ -52,7 +55,7 @@ Remove a git submodule
 
 Add submodule
 `cd into folder you want the submodule`
-`git submodule add url.git` 
+`git submodule add url.git`
 
 # Credits
 https://github.com/Parth/dotfiles

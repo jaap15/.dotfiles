@@ -1,2 +1,3 @@
-plugins/.netrwhist
+vim/plugins/.netrwhist
+*.swp
 

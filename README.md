@@ -33,6 +33,7 @@ Load YouCompleteMe
 `./install.py --clang-completer`
 
 # Install Vundle Plugins
+Make sure to have updated the submodules
 In vim do `:PluginInstall`
 
 # Load zsh config

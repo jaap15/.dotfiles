@@ -34,7 +34,9 @@ Load YouCompleteMe
 
 # Install Vundle Plugins
 Make sure to have updated the submodules
-In vim do `:PluginInstall`
+Launch vim and run `:PluginInstall`
+
+To install from command line: `vim +PluginInstall +qall`
 
 # Load zsh config
 

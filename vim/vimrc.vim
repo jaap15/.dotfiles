@@ -7,6 +7,7 @@
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'tarekbecker/vim-yaml-formatter'
     Plugin 'plasticboy/vim-markdown'
+    Plugin 'Valloric/YouCompleteMe'
     call vundle#end()            " required
     filetype plugin indent on    " required
 " }

@@ -8,10 +8,15 @@
     Plugin 'tarekbecker/vim-yaml-formatter'
     Plugin 'plasticboy/vim-markdown'
     Plugin 'Valloric/YouCompleteMe'
+    Plugin 'drewtempelmeyer/palenight.vim'
     call vundle#end()            " required
     filetype plugin indent on    " required
 " }
 
+" Set up Palenight plugin {
+    set background=dark
+    colorscheme palenight
+" }
 
 " Disable folding {
     let g:vim_markdown_folding_disabled=1
@@ -93,3 +98,24 @@
 
     autocmd Filetype make setlocal noexpandtab shiftwidth=8 softtabstop=0
     autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
+
+" Tab Settings {
+    nnoremap th  :tabfirst<CR>
+    nnoremap tk  :tabnext<CR>
+    nnoremap tj  :tabprev<CR>
+    nnoremap tl  :tablast<CR>
+    nnoremap tt  :tabedit<Space>
+    nnoremap tn  :tabnext<Space>
+    nnoremap tm  :tabm<Space>
+    nnoremap td  :tabclose<CR>
+    " Alternatively use
+    " "nnoremap th :tabnext<CR>
+    " "nnoremap tl :tabprev<CR>
+    " "nnoremap tn :tabnew<CR>
+" }
+
+" Copying to Clipboard Settings {
+    vnoremap <C-c> "+y
+    map <C-v> "+P
+" }

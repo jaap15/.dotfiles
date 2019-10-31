@@ -117,5 +117,5 @@
 
 " Copying to Clipboard Settings {
     vnoremap <C-c> "+y
-    map <C-v> "+P
+    map <C-p> "+P
 " }

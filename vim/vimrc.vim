@@ -23,6 +23,13 @@
     set nofoldenable
 " }
 
+" Find files recursively based on your current directory {
+    set path+=**
+" }
+
+" Set wild card menu for finding next file when tabbing {
+    set wildmenu
+" }
 
 " Include Pathogen {
     source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim

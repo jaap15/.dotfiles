@@ -4,3 +4,5 @@ vim/plugins/.netrwhist
 vim/plugins/bundle/vim-markdown/
 vim/plugins/bundle/vim-yaml-formatter/
 vim/plugins/bundle/Vundle.vim/
+vim/plugins/bundle/palenight.vim/
+vim/plugins/bundle/vim-mucomplete/

@@ -1,26 +1,14 @@
 # Setup
 Clone repo in ~/
 Do the following:
-- Install tmux
-- Install zsh
-- Load vim config
-- Load tmux config
 - Get all the plugins from their git repos:
-- Load vim plugins
+- Install tmux
+- Install neovim
+- Load tmux config
 
-# Load vim config
+- Load vim config
+- Misc
 
-Create symbolic link so that ~/.vimrc points to the ~/dotfiles/.vimrc file:
-
-`ln -s ~/.dotfiles/vim/vimrc.vim ~/.vimrc`
-
-Create symbolic link so that ~/.vim/ points to the ~/dotfiles/vim/plugins/ file: (Will not create link if ~/.vim already exists, remove ~/.vim)
-
-`ln -s ~/.dotfiles/vim/plugins ~/.vim`
-
-# Load tmux config
-
-`echo "source-file ~/.dotfiles/tmux/tmux.conf" > ~/.tmux.conf`
 
 # Get all the plugins from their git repos:
 
@@ -28,36 +16,22 @@ Create symbolic link so that ~/.vim/ points to the ~/dotfiles/vim/plugins/ file:
 
 `git submodule update --init --recursive`
 
-# Load vim plugins
-Load YouCompleteMe
-`sudo apt-get install build-essential cmake`
-
-`sudo apt-get install python-dev python3-dev`
-
-`cd ~/.vim/bundle/YouCompleteMe`
-
-`./install.py --clang-completer`
-
-# Install Vundle Plugins
-Make sure to have updated the submodules
-
-Launch vim and run `:PluginInstall`
-
-To install from command line: `vim +PluginInstall +qall`
-
-# Load zsh config
-
-`echo "source ~/.dotfiles/zsh/zshrc_manager.sh" > ~/.zshrc`
-
-# Install zsh
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
-
-`sudo apt-get install zsh`
-
 # Install tmux
 `sudo apt-get install tmux`
+
+# Install neovim
+
+`sudo apt install neovim -y`
+
+# Load tmux config
+
+`echo "source-file ~/.dotfiles/tmux/tmux.conf" > ~/.tmux.conf`
+
+# Load neovim config
+
+Create symbolic link so that ~/.config/nvim points to the ~/dotfiles/nvim directory:
+
+`ln -s ~/.dotfiles/nvim ~/.config/nvim`
 
 # Misc
 

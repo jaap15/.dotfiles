@@ -35,7 +35,7 @@ Create symbolic link so that ~/.config/nvim points to the ~/dotfiles/nvim direct
 
 Please install the following packages:
 
-```
+```bash
 sudo apt install ripgrep
 ```
 

@@ -33,6 +33,7 @@ Create symbolic link so that ~/.config/nvim points to the ~/dotfiles/nvim direct
 
 `ln -s ~/.dotfiles/nvim ~/.config/nvim`
 
+
 Please install the following packages:
 
 ```bash

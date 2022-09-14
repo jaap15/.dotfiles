@@ -44,6 +44,8 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
+  use "bronson/vim-trailing-whitespace" -- Useful for detecting and removing trailing whitespaces
+  use "mfukar/robotframework-vim" -- RobotFramework syntax plugin
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
@@ -65,6 +67,7 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "robocorp/robotframework-lsp" -- RobotFramework language server installer
 
   -- Telescope
   use "nvim-telescope/telescope.nvim"

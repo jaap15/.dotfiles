@@ -40,6 +40,20 @@ Please install the following packages:
 sudo apt install ripgrep
 ```
 
+# Neovim Tips
+
+Copy Text when using Tmux on Chrome Secure Shell.
+
+1. Disable mouse controle in neovim:
+
+`:set mouse=`
+
+2. Select Text and Press Ctrl+C
+
+3. Enable mouse control again in neovim:
+
+`:set mouse=a`
+
 # Misc
 
 Remove a git submodule
